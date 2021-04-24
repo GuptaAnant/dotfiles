@@ -9,7 +9,7 @@ sudo pacman -S yay
 echo "Installed yay"
 
 echo "Now installing other dependencies"
-yay -S awesome-git alacritty brave nerd-fonts-mononoki thunar rofi fish picom starship obs-studio android-studio light-git lxsession lxappearance volumeicon feh pavucontrol
+yay -S awesome-git alacritty brave nerd-fonts-mononoki thunar rofi fish picom starship obs-studio android-studio light-git lxsession lxappearance volumeicon feh pavucontrol libreoffice
 echo "Installed various programs that I needed"
 
 echo "Now downloading wallpaper directory"
