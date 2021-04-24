@@ -15,6 +15,9 @@ function fish_user_key_bindings
 end
 ### END OF VI MODE ###
 
+# Path
+export PATH="$HOME/.emacs.d/bin:$PATH"
+
 # vim
 alias vim='nvim'
 
