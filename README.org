@@ -1,0 +1,21 @@
+#+TITLE: Dotfiles
+#+AUTHOR: Anant Gupta
+
+
+* What are dotfiles
+Dotfiles are usully those files that usually begin with a period(.). The usually are hidden files. They are usually in Unix based system and they usually is used to customize our desktop. They are put because of my convience. Anyone is free to access my dotfiles.
+
+* How you can use them
+Actually I have put an install script namely "install.sh". It is also put for my convience as if I want to do a serious distrohopp (I don't do these days). It is very easy to run. First make it executable by...
+
+#+begin_src
+chmod +x install.sh
+#+end_src
+
+Then run this by...
+
+#+begin_src
+./install.sh
+#+end_src
+
+NOTE: This will only work on Arch & Arch based system. If you want to need to work for Debian/Ubuntu distribution or any other you need to open the 'install.sh' file & replace 'yay' with your package manager helper. Also various packages are called differently on various other distribution (for instances alacritty). But this would work just fine on Arch based system.
