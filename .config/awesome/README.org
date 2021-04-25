@@ -1,18 +1,18 @@
 #+TITLE: Awesome Window Manager config
 #+DESCRIPTION: Awesome Window Manager configured config in case anythings fails (Hard Disk)
 #+AUTHOR: Anant Gupta
-#+PROPERTY: header-args :tangle rc.lua
++PROPERTY: header-args :tangle rc.lua
 
-* TABLE OF CONTENT :toc:
+* Table of Content :toc:
 - [[#about-this-config][About this config]]
 - [[#imports][Imports]]
 - [[#error-handling][Error Handling]]
 - [[#variables][Variables]]
 - [[#right-click-menu][Right click menu]]
 - [[#various-layouts][Various Layouts]]
-- [[#wibar-top-bar-config-not-changed-much-in-here][Wibar (Top bar) config. Not changed much in here.]]
+- [[#wibar-top-bar-config][Wibar (Top bar) config.]]
 - [[#mouse-bindings][Mouse bindings.]]
-- [[#various-key-bindings-see-all-of-them-by-mods][Various key bindings (See all of them by Mod+S)]]
+- [[#various-key-bindings][Various key bindings]]
 - [[#rules][Rules]]
 - [[#notification][Notification]]
 - [[#gaps][Gaps]]
@@ -21,10 +21,10 @@
 * About this config
 Awesome is a highly configurable, next generation framework window manager for X. It is very fast, extensible and licensed under the GNU GPLv2 license.
 
-It is primarily targeted at power users, developers and any people dealing with every day computing tasks and who want to have fine-grained control on their graphical environment. (copied from the awesomewm.org)
+This is my personal config of awesome window manager. I am using the *awesome-git* version instead of the standard one.
 
 * Imports
-Imports for window manager config such in other languages, lua is also needing imports. These are for the later. Don't remove them if you are not sure
+Imports for window manager config such in other languages, lua is also needing imports. These are for the later. Don't remove them if you are not sure.
 
 #+begin_src lua
 
@@ -55,7 +55,7 @@ require("awful.hotkeys_popup.keys")
 #+end_src
 
 * Error Handling
-How Awesome window manager will encountered if an error occurs in the config
+How Awesome window manager will encountered if an error occurs in the config.
 #+begin_src lua
 
 naughty.connect_signal("request::display_error", function(message, startup)
@@ -69,7 +69,7 @@ end)
 #+end_src
 
 * Variables
-Defining some variables like mod key, terminal emulator
+Defining some variables like modkey, default terminal.
 
 #+begin_src lua
 
@@ -112,7 +112,7 @@ menubar.utils.terminal = terminal -- Set the terminal for applications that requ
 #+end_src
 
 * Various Layouts
-Some layout I use often. Anyone can easily comment & uncomment changes & move order for layout order
+Some layout I use often. Anyone can easily comment & uncomment changes & move order for layout order in your preference.
 #+begin_src lua
 -- {{{ Tag
 tag.connect_signal("request::default_layouts", function()
@@ -135,7 +135,8 @@ end)
 
 #+end_src
 
-* Wibar (Top bar) config. Not changed much in here.
+* Wibar (Top bar) config.
+The top bar config. It shows various things like time, date, nm-applet etc. Not changed much in here.
 #+begin_src lua
 -- {{{ Wibar
 
@@ -235,6 +236,7 @@ end)
 #+end_src
 
 * Mouse bindings.
+Some mouse mindings that I have no idea of.
 
 #+begin_src lua
 awful.mouse.append_global_mousebindings({
@@ -245,7 +247,8 @@ awful.mouse.append_global_mousebindings({
 
 #+end_src
 
-* Various key bindings (See all of them by Mod+S)
+* Various key bindings
+Some basic keybindings for opening an application. See all of them by Mod+S in one place.
 #+begin_src lua
 
 awful.keyboard.append_global_keybindings({
@@ -519,7 +522,7 @@ end)
 #+end_src
 
 * Rules
-Some rules with Floating window & various other things
+Some rules with Floating window & various other things.
 #+begin_src lua
 
 -- Rules to apply to new clients.
@@ -565,7 +568,7 @@ end)
 #+end_src
 
 * Notification
-How will notification come
+How will notification came in AwesomeWM
 
 #+begin_src lua
 
@@ -587,7 +590,7 @@ end)
 #+end_src
 
 * Gaps
-Gaps around borders of windows
+Gaps around borders of tiling windows.
 #+begin_src lua
 
 -- beautiful.useless_gap = 20 -- For screenshot stuff
@@ -596,7 +599,7 @@ beautiful.useless_gap = 6
 #+end_src
 
 * Autostart Application
-Applications that will start automatically when AwesomeWM starts
+Applications that will start automatically when AwesomeWM starts.
 #+begin_src lua
 
 awful.spawn.with_shell("feh --bg-fill --randomize ~/wallpapers/")
