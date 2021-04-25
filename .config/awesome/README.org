@@ -284,8 +284,8 @@ awful.keyboard.append_global_keybindings({
               {descript1ion = "Open Thunar", group = "gui"}),
 
     -- Emacs
-    awful.key({ modkey, "Shift" }, "e", function()
-    awful.util.spawn("emacs") end,
+    awful.key({ modkey }, "e", function()
+    awful.util.spawn("emacsclient -a 'emacs' -c") end,
               {description = "Open Emacs", group = "gui"}),
 
     -- Android Studio
