@@ -1,0 +1,40 @@
+#+TITLE: Alacritty Config
+#+DESCRIPTION: My customized alacritty config
+#+AUTHOR: Anant Gupta
+#+PROPERTY: header-args :tangle alacritty.yml
+
+* Table of content :toc:
+- [[#fonts][Fonts]]
+- [[#font-size][Font size]]
+
+* Fonts
+You can set you own font that Alacritty will display. Monospace font suits better on code editors & terminal emulator like Mononoki Nerd Font/
+
+#+begin_src yaml
+
+font:
+  normal:
+    family: Mononoki Nerd Font
+    style: Regular
+
+  bold:
+    family: Mononoki Nerd Font
+    style: Bold
+
+  italic:
+    family: Mononoki Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: Mononoki Nerd Font
+    style: Bold Italic
+
+#+end_src
+
+* Font size
+Font size. Set it to any number & terminal will launch with this size. But you can increase or decrease the font size also when the terminal is opened
+#+begin_src yaml
+
+  size: 12.0
+
+#+end_src

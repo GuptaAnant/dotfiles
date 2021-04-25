@@ -4,7 +4,7 @@
 ;; sync' after modifying this file!
 
 (setq doom-font (font-spec :family "Mononoki Nerd Font" :size 15)
-      doom-variable-pitch-font (font-spec :family "Mononoki Nerd  Font" :size 15))
+      doom-variable-pitch-font (font-spec :family "Mononoki Nerd Font" :size 15))
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
