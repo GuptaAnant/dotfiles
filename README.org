@@ -5,7 +5,7 @@
 * What are dotfiles
 #+CAPTION: Desktop Scrot
 #+ATTR_HTML: :alt Desktop Scrot :title Desktop Scrot :align left
-https://i.imgur.com/zOo5WSv.png
+https://raw.githubusercontent.com/GuptaAnant/dotfiles/master/.screenshot/awesome.png
 
 Dotfiles are usully those files that usually begin with a period(.). The usually are hidden files. They are usually in Unix based system and they usually is used to customize our desktop. They are put because of my convience. Anyone is free to access my dotfiles.
 
