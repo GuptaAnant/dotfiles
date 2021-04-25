@@ -44,5 +44,8 @@ alias remove="yay -Rs"
 # Git bare repo setup
 alias config="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 
+# For wallpaper
+alias cw="feh --bg-fill --randomize ~/wallpapers/"
+
 ### SETTING THE STARSHIP PROMPT ###
 starship init fish | source
