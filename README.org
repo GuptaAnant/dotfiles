@@ -6,7 +6,7 @@
 Dotfiles are usully those files that usually begin with a period(.). The usually are hidden files. They are usually in Unix based system and they usually is used to customize our desktop. They are put because of my convience. Anyone is free to access my dotfiles.
 
 * How you can use them
-Actually I have put an install script namely *install.sh*. It is also put for my convience. It is very easy to run. First make it executable by...
+Actually I have put an install script named *install.sh*. It is also put for my convience. It is very easy to run. First make it executable by...
 
 #+begin_src
 chmod +x install.sh
@@ -33,7 +33,3 @@ My various configs I use primarily use. Other config you can easily find on the 
 
 * How To Manage Your Own Dotfiles
 There are a hundred ways to manage your dotfiles. Personally, I use the *git bare repository method* for managing my dotfiles. Here is an article about this method of managing your dotfiles: [[https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/][From Developer Atlassian]]
-
-Other articles discussing dotfile management are listed below:
-- [[https://distrotube.com/guest-articles/managing-dotfiles-with-rcm.html][Managing dotfiles with style with rcm]]
-- [[https://distrotube.com/guest-articles/interactive-dotfile-management-dotbare.html][Interactive dotfile management with dotbare]]
