@@ -20,10 +20,12 @@ Then run this by...
 
 NOTE: This will only work on Arch & Arch based system. If you want to need to work for Debian/Ubuntu distribution or any other you need to open the 'install.sh' file & replace 'yay' with your package manager helper. Also various packages are called differently on various other distribution (for instances alacritty). But this would work just fine on Arch based system.
 
-My various config
+* My various config
+My various configs I use primarily use. Other config you can easily find on the dotfiles folder
 
 [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/awesome][AwesomeWM]] -> Tiling Window Manager of Choice
 [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/alacritty][Alacritty]] -> Terminal Emulator of Choice
 [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/rofi][Rofi]] -> Run launcher of Choice
 [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/fish][Fish Shell]] -> Shell of choice
 [[https://github.com/GuptaAnant/dotfiles/blob/master/.config/starship.toml][Starship]] -> Shell prompt of Choice
+[[https://github.com/GuptaAnant/dotfiles/tree/master/.doom.d][Doom Emacs]] -> Text Editior of choice
