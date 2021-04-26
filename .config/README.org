@@ -1,0 +1,19 @@
+#+TITLE: .config Folder info
+#+DESCRIPTION: Info about .config folder
+#+AUTHOR: Anant Gupta
+
+* Table of Content :toc:
+- [[#what-is-config-folder][What is .config folder]]
+- [[#my-configuration-files][My configuration files]]
+
+* What is .config folder
+In unix based distribution, firstly .config is a hidden directory as it starts with a *period(.)*. It is the directory where *mostly*(not all) configuration file holds. It is the folder that if you have changed some settings with the appearance weather GUI or CLI it would be hold there. It is the folder which diffrentiate any same base distro to the other. For example Linux Mint from Debian.
+
+* My configuration files
+Here are the folders that are in my .config folder...
+- [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/alacritty][Alacritty]]
+- [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/awesome][AwesomeWM]]
+- [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/fish][Fish Shell]]
+- [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/picom][Picom]]
+- [[https://github.com/GuptaAnant/dotfiles/tree/master/.config/rofi][Rofi]]
+- [[https://github.com/GuptaAnant/dotfiles/blob/master/.config/starship.toml][Starship]]
