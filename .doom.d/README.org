@@ -1,0 +1,40 @@
+#+TITLE: .doom.d folder
+#+DESCRIPTION: About the .doom.d folder
+
+
+* Table of content :toc:
+- [[#doomd-folder][.doom.d folder]]
+- [[#what-feautures-i-use][What feautures I use]]
+- [[#how-to-use-my-config][How to use my config]]
+
+* .doom.d folder
+.doom.d is the folder where all my Doom Emacs config holds. *Doom Emacs* is a distribution of Emacs which uses evil keybinding (vim keybinding) by default. I use this distribution as it is preconfigured by default & can be used as a great IDE (Integrated Development Environment).
+
+* What feautures I use
+There are many feautres that makes Emacs (not specifically Doom Emacs) great. Like the file manager *dired*, email client *mufe*, writing/note taking mode *org-mode*, git client *magit* & many more.
+
+* How to use my config
+For using this config you need to install Doom Emacs by installing few depenencies...
+
+#+begin_src
+yay -S git ripgrep fd emacs
+#+end_src
+
++ *NOTE*: This will only work for Arch or Arch based distribution (Like Manjaro), but you can also install the same dependencies by your package manager.
++ Then you need to clone the repo of doom emacs & install it.
+
+#+begin_src
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+#+end_src
+
+#+begin_src
+~/.emacs.d/bin/doom install
+#+end_src
+
+After installing Doom Emacs you need to add this to your *.bashrc* (for bash shell) or *.zshrc* (for zsh shell) or *.config/fish/config.fish* (for fish shell)
+
+#+begin_src
+export PATH=”$HOME/.emacs.d/bin:$PATH”
+#+end_src
+
+After this you can easily grab my config!
