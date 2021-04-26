@@ -27,7 +27,7 @@ set -U fish_user_paths $HOME/.local/bin $HOME/Applications $fish_user_paths
 #+end_src
 
 * Exports
-For automatic things
+For automatic things.
 #+begin_src shell
 
 set fish_greeting                                 # Supresses fish's intro message
@@ -36,7 +36,7 @@ set TERM "xterm-256color"                         # Sets the terminal type
 #+end_src
 
 * Keybindings
-Vim or Emacs keybindings? It's your choice
+Vim or Emacs keybindings? It's your choice.
 #+begin_src shell
 
 function fish_user_key_bindings
@@ -47,7 +47,7 @@ end
 #+end_src
 
 * Path
-Exporting path for Doom Emacs
+Exporting path for Doom Emacs.
 #+begin_src shell
 
 export PATH="$HOME/.emacs.d/bin:$PATH"
