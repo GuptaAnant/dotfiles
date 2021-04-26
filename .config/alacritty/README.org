@@ -8,7 +8,7 @@
 - [[#font-size][Font size]]
 
 * Fonts
-You can set you own font that Alacritty will display. Monospace font suits better on code editors & terminal emulator like Mononoki Nerd Font/
+You can set you own font that Alacritty will display. Monospace font suits better on code editors & terminal emulator like Mononoki Nerd Font.
 
 #+begin_src yaml
 
@@ -32,7 +32,7 @@ font:
 #+end_src
 
 * Font size
-Font size. Set it to any number & terminal will launch with this size. But you can increase or decrease the font size also when the terminal is opened
+Font size. Set it to any number & terminal will launch with this size. But you can increase or decrease the font size also when the terminal is opened.
 #+begin_src yaml
 
   size: 12.0
