@@ -1,7 +1,7 @@
 #+TITLE: Awesome Window Manager config
 #+DESCRIPTION: Awesome Window Manager configured config in case anythings fails (Hard Disk)
 #+AUTHOR: Anant Gupta
-+PROPERTY: header-args :tangle rc.lua
+#+PROPERTY: header-args :tangle rc.lua
 
 * Table of Content :toc:
 - [[#about-this-config][About this config]]
@@ -20,7 +20,6 @@
 
 * About this config
 Awesome is a highly configurable, next generation framework window manager for X. It is very fast, extensible and licensed under the GNU GPLv2 license.
-
 This is my personal config of awesome window manager. I am using the *awesome-git* version instead of the standard one.
 
 * Imports
@@ -568,7 +567,7 @@ end)
 #+end_src
 
 * Notification
-How will notification came in AwesomeWM
+How will notification came in AwesomeWM.
 
 #+begin_src lua
 
