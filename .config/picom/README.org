@@ -1,3 +1,19 @@
+#+TITLE: Picom Config
+#+DESCRIPTION: My picom customized config
+#+AUTHOR: Anant Gupta
+#+PROPERTY: header-args :tangle picom.conf
+
+* Table of Content :toc:
+- [[#shadow][Shadow]]
+- [[#fade][Fade]]
+- [[#opacity][Opacity]]
+- [[#windowtype][WindowType]]
+
+* Shadow
+The amount of shadow & which application would have no shadow.
+
+#+begin_src conf
+
 shadow = true;
 
 shadow-radius = 8;
@@ -16,6 +32,13 @@ shadow-exclude = [
   "class_g = 'Polybar'",
 ];
 
+#+end_src
+
+* Fade
+The Amount of Fading, excluding, & how much.
+
+#+begin_src conf
+
 # fading = false
 fading = true;
 
@@ -30,6 +53,13 @@ fade-out-step = 0.03;
 fade-exclude = [
   "class_g = 'slop'"   # maim
 ]
+
+#+end_src
+
+* Opacity
+The opacity of the active, inactive window.
+
+#+begin_src conf
 
 # inactive-opacity = 0.8
 inactive-opacity = 1.0;
@@ -59,6 +89,13 @@ opacity-rule = [
   "100:class_g    = 'Thunderbird'"
 ];
 
+#+end_src
+
+* WindowType
+See fade, shadow, opacity value here.
+
+#+begin_src conf
+
 wintypes:
 {
   normal = { fade = false; shadow = true; }
@@ -68,3 +105,5 @@ wintypes:
   popup_menu = { opacity = 0.8; }
   dropdown_menu = { opacity = 0.8; }
 };
+
+#+end_src
