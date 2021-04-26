@@ -1,6 +1,11 @@
 #+TITLE: Dotfiles
 #+AUTHOR: Anant Gupta
 
+* Table of content :toc:
+- [[#what-are-dotfiles][What are dotfiles]]
+- [[#how-you-can-use-them][How you can use them]]
+- [[#my-various-config][My various config]]
+- [[#how-to-manage-your-own-dotfiles][How To Manage Your Own Dotfiles]]
 
 * What are dotfiles
 
