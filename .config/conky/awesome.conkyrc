@@ -1,9 +1,3 @@
---[[
-#=====================================================================================
-#                               Awesome Conky
-#======================================================================================
-]]
-
 conky.config = {
 
 	--Various settings
@@ -19,21 +13,16 @@ conky.config = {
 	update_interval = 1,						-- update interval
 	imlib_cache_size = 0,                       -- disable image cache to get a new spotify cover per song
 
-alignment = 'middle_right', 
+alignment = 'middle_right',
 --Arch Duoscreen
 --gap_x = -1366,
-gap_x = 23, 
-gap_y = 20, 
-minimum_height = 600, 
-minimum_width = 230, 
-maximum_width = 230,
+gap_x = 23,
+gap_y = 20,
 
-    -- Size
-    minimum_height = 200,						-- minimum height of window
-	minimum_width = 260,						-- minimum height of window
-	maximum_width = 260,						-- maximum height of window
+minimum_height = 200,						-- minimum height of window
+minimum_width = 260,						-- minimum height of window
+maximum_width = 260,						-- maximum height of window
 
-	--Graphical
 	border_inner_margin = 5, 					-- margin between border and text
 	border_outer_margin = 5, 					-- margin between border and edge of window
 	border_width = 0, 							-- border width in pixels
@@ -51,32 +40,30 @@ maximum_width = 230,
 	draw_outline = false,						-- draw outline
 	stippled_borders = 0,						-- dashing the border
 
-	--Textual
-	format_human_readable = true,				-- KiB, MiB rather then number of bytes
-	font = 'Mononoki Nerd Font:bold:size=10',  	-- font for complete conky unless in code defined
+	format_human_readable = true,				-- kib, mib rather then number of bytes
+	font = 'mononoki nerd font:bold:size=10',  	-- font for complete conky unless in code defined
 	max_text_width = 0,							-- 0 will make sure line does not get broken if width too smal
 	max_user_text = 16384,						-- max text in conky default 16384
-	override_utf8_locale = true,				-- force UTF8 requires xft
-	short_units = true,							-- shorten units from KiB to k
+	override_utf8_locale = true,				-- force utf8 requires xft
+	short_units = true,							-- shorten units from kib to k
 	top_name_width = 21,						-- width for $top name value default 15
-	top_name_verbose = false,					-- If true, top name shows the full command line of  each  process - Default value is false.
+	top_name_verbose = false,					-- if true, top name shows the full command line of  each  process - default value is false.
 	uppercase = false,							-- uppercase or not
 	use_spacer = 'none',						-- adds spaces around certain objects to align - default none
 	use_xft = true,								-- xft font - anti-aliased font
 	xftalpha = 1,								-- alpha of the xft font - between 0-1
 
-	--Windows
 	own_window = true,							-- create your own window to draw
 	own_window_argb_value = 255,			    -- real transparency - composite manager required 0-255
-	own_window_argb_visual = true,				-- use ARGB - composite manager required
-	own_window_class = 'Conky',					-- manually set the WM_CLASS name for use with xprop
+	own_window_argb_visual = true,				-- use argb - composite manager required
+	own_window_class = 'conky',					-- manually set the wm_class name for use with xprop
 	own_window_colour = '#282c34',				-- set colour if own_window_transparent no
 	own_window_transparent = false,				-- if own_window_argb_visual is true sets background opacity 0%
 	own_window_title = 'awesome_conky',			-- set the name manually; default conky "hostname"
 	own_window_type = 'desktop',				-- if own_window true options are: normal/override/dock/desktop/panel
 	own_window_hints = 'undecorated,below,above,sticky,skip_taskbar,skip_pager',  -- if own_window true - just hints - own_window_type sets it
 
-	--Colors
+	--colors
 	color0 = '#c678dd',
 	color1 = '#bbc2cf',
 	color2 = '#51afef',
