@@ -9,13 +9,13 @@ sudo pacman -S yay
 echo "Installed yay"
 
 echo "Now installing other dependencies"
-yay -S awesome-git alacritty brave nerd-fonts-mononoki thunar rofi fish picom starship obs-studio android-studio light-git lxsession lxappearance volumeicon feh pavucontrol libreoffice ripgrep fd emacs
+yay -S awesome-git alacritty brave nerd-fonts-mononoki thunar rofi exa fish picom starship obs-studio android-studio light-git lxsession lxappearance volumeicon feh pavucontrol libreoffice ripgrep fd emacs
 
 echo "Installed various programs that I needed"
 
 echo "Now downloading wallpaper directory"
 cd
-git clone https://gitlab.com/dwt1/wallpaper.git
+git clone https://gitlab.com/dwt1/wallpapers.git
 echo "Done wallpaper setup"
 
 echo "Now setting up doom emacs"
