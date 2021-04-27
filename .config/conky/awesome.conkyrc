@@ -103,7 +103,7 @@ ${color1}[S]+[SPC]+[RET]${alignr}${color2}Bring Run Launcher${color}
 ${color1}[S]+[SHIFT]+c${alignr}${color2}Close Window${color}
 ${color1}[S]+[SHIFT]+f${alignr}${color2}Open Brave Browser${color}
 ${color1}[S]+f${alignr}${color2}Open File Manager${color}
-${color1}[S]+[SHIFT]+e${alignr}${color2}Open Doom Emacs${color}
+${color1}[S]+e${alignr}${color2}Open Doom Emacs${color}
 ${color1}[S]+[SHIFT]+1234${alignr}${color2}Move Window${color}
 ${color1}[S]+[0-9]${alignr}${color2}Switch Workspace${color}
 ${color1}${hr}${color}
